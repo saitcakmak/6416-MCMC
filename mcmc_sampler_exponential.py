@@ -30,21 +30,21 @@ def likelihood_ratio(candidate, current):
     return np.nan_to_num(prob)
 
 
-def generate_candidate(theta):
+def generate_candidate(theta, cov):
     """
     generate the next candidate from normal distribution
     """
-    cand = np.random.normal(theta, candidate_cov)
+    cand = np.random.normal(theta, cov)
     if not cand > 0:
-        cand = generate_candidate(theta)
+        cand = generate_candidate(theta, cov)
     return cand
 
 
-def theta_next(theta):
+def theta_next(theta, cov):
     """
     return the next theta according to the accept/reject decision
     """
-    candidate = generate_candidate(theta)
+    candidate = generate_candidate(theta, cov)
     accept_prob = likelihood_ratio(candidate, theta)
     uniform = np.random.random_sample()
     if uniform < accept_prob:
@@ -53,7 +53,7 @@ def theta_next(theta):
         return theta
 
 
-def mcmc_run(run_length, theta, string):
+def mcmc_run(run_length, theta, string, cov):
     """
     run the mcmc algorithm to do the sampling for a given length with given starting value
     """
@@ -62,7 +62,7 @@ def mcmc_run(run_length, theta, string):
         print("replication '0000s:", j, " time: ", datetime.datetime.now() - start)
         inner_out = []
         for i in range(10000):
-            theta = theta_next(theta)
+            theta = theta_next(theta, cov)
             inner_out.append(theta)
         output = output + inner_out
         np.save("mcmc_exp_out_" + string + ".npy", output)
@@ -84,13 +84,13 @@ def get_input():
     return n, string
 
 
-def main(n, string):
-    global start, delta, candidate_cov
+def main(n, string, candidate_cov):
+    global start, delta
     global prior, parameters
     parameters = [1]
     prior = [1, 1]
 
-    candidate_cov = 0.25
+    # candidate_cov = 0.25
     delta = 0.000001
     start = datetime.datetime.now()
     # n, string = get_input()
@@ -108,4 +108,4 @@ def main(n, string):
 
 if __name__ == "__main__":
     n, string = get_input()
-    main(n, string)
+    main(n, string, 0.25)
