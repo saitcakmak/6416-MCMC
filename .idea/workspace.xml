@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc37d006-56e6-4dcc-b33e-25388324908b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kl_calculator_exponential.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kl_calculator_normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/kl_calculator_normal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_100-20.npy" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_exp_out_100_20.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_100-20.npy" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_exp_params_100_20.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_500_#.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_sampler_exponential.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_sampler_exponential.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mcmc_sampler_exponential.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+            <state relative-caret-position="163">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -28,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mcmc_sampler_normal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
+            <state relative-caret-position="1290">
               <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -40,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kl_calculator_normal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="705">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -49,10 +56,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kl_calculator_exponential.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_parallel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="255">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
@@ -82,8 +101,10 @@
         <option value="$PROJECT_DIR$/kl-calculator-normal.py" />
         <option value="$PROJECT_DIR$/mcmc-sampler-normal.py" />
         <option value="$PROJECT_DIR$/run_parallel.py" />
-        <option value="$PROJECT_DIR$/mcmc_sampler_exponential.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/kl_calculator_normal.py" />
+        <option value="$PROJECT_DIR$/kl_calculator_exponential.py" />
+        <option value="$PROJECT_DIR$/mcmc_sampler_exponential.py" />
       </list>
     </option>
   </component>
@@ -133,8 +154,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run_parallel">
-    <configuration name="mcmc-sampler-exponential" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.kl_calculator_exponential">
+    <configuration name="kl_calculator_exponential" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
+      <module name="6416-MCMC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kl_calculator_exponential.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kl_calculator_normal" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
+      <module name="6416-MCMC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kl_calculator_normal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mcmc-sampler-exponential" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
       <module name="6416-MCMC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,11 +260,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.kl_calculator_normal" />
+      <item itemvalue="Python.mcmc-sampler-exponential" />
+      <item itemvalue="Python.mcmc-sampler-normal" />
+      <item itemvalue="Python.run_parallel" />
+      <item itemvalue="Python.kl_calculator_exponential" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kl_calculator_exponential" />
+        <item itemvalue="Python.mcmc-sampler-exponential" />
+        <item itemvalue="Python.kl_calculator_normal" />
         <item itemvalue="Python.run_parallel" />
         <item itemvalue="Python.mcmc-sampler-normal" />
-        <item itemvalue="Python.mcmc-sampler-exponential" />
       </list>
     </recent_temporary>
   </component>
@@ -237,13 +309,20 @@
       <option name="project" value="LOCAL" />
       <updated>1555075902000</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aaa">
+      <created>1555088005781</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555088005781</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14446793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14446793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,7 +332,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33734939" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33734939" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.25180724" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32891566" />
@@ -287,10 +366,34 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
     <option name="LAST_COMMIT_MESSAGE" value="aaa" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kl_calculator_exponential.py</url>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py">
@@ -307,10 +410,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kl_calculator_normal.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/scipy/stats/_distn_infrastructure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="1667" selection-start-line="1667" selection-end-line="1667" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcmc_sampler_exponential.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -319,7 +443,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mcmc_sampler_normal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
+        <state relative-caret-position="1290">
           <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -327,26 +451,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mcmc_sampler_exponential.py">
+    <entry file="file://$PROJECT_DIR$/kl_calculator_normal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
+        <state relative-caret-position="705">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/kl_calculator_exponential.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state relative-caret-position="750">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_parallel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="255">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />

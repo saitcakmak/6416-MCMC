@@ -34,7 +34,10 @@ def generate_candidate(theta):
     """
     generate the next candidate from normal distribution
     """
-    return np.random.normal(theta, candidate_cov)
+    cand = np.random.normal(theta, candidate_cov)
+    if not cand > 0:
+        cand = generate_candidate(theta)
+    return cand
 
 
 def theta_next(theta):
