@@ -2,13 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc37d006-56e6-4dcc-b33e-25388324908b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mcmc_norm_out_10_1.npy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kl-calculator-normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/kl-calculator-normal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_10.npy" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_exp_out_10_1.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_10.npy" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_exp_params_10_1.npy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_norm_out_10.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_norm_params_10.npy" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_norm_params_10_1.npy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_10.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_6.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_7.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_8.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_9.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_10.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_11.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_12.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_13.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_14.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_15.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_16.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_17.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_18.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_19.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_2.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_20.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_5.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_6.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_7.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_8.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_9.npy" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mcmc-sampler-exponential.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
+            <state relative-caret-position="393">
+              <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -45,8 +69,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kl-calculator-normal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+            <state relative-caret-position="413">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -185,12 +209,20 @@
       <option name="presentableId" value="Default" />
       <updated>1554297079238</updated>
     </task>
+    <task id="LOCAL-00001" summary="aaa">
+      <created>1555018673246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555018673246</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14446793" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14446793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -200,7 +232,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33734939" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.25180724" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32891566" />
@@ -208,6 +240,36 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaa" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/local/Cellar/python/3.7.2_1/Frameworks/Python.framework/Versions/3.7/lib/python3.7/urllib/parse.py">
@@ -224,23 +286,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mcmc-sampler-exponential.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="77" column="44" selection-start-line="77" selection-start-column="44" selection-end-line="77" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mcmc-sampler-normal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
@@ -251,10 +296,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcmc-sampler-exponential.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kl-calculator-normal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        <state relative-caret-position="413">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
