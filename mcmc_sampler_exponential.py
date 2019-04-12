@@ -101,7 +101,7 @@ def main(n, string, candidate_cov):
               "covariance": candidate_cov, "delta": delta, "parameters": parameters,
               "post_alpha": post_alpha, "post_beta": post_beta}
     np.save("mcmc_exp_params_" + string + ".npy", params)
-    mcmc_run(length, t_start, string)
+    mcmc_run(length, t_start, string, cov)
     end = datetime.datetime.now()
     print("done! time: ", end - start)
 

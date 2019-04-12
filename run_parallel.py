@@ -3,7 +3,8 @@ import mcmc_sampler_normal
 import mcmc_sampler_exponential
 
 n = int(input("enter data size n: "))
-rep = int(input("enter number of replications: "))
+# rep = int(input("enter number of replications: "))
+rep = 30
 # choice = input("enter exp or norm: ")
 choice = "exp"
 cov = float(input("enter candidate covariance: "))
