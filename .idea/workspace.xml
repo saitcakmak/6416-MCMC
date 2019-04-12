@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc37d006-56e6-4dcc-b33e-25388324908b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/run_parallel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kl-calculator-normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/kl_calculator_normal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc-sampler-exponential.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_sampler_exponential.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc-sampler-normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_sampler_normal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_norm_out_10_1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_norm_params_10_1.npy" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mcmc_sampler_exponential.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="1335">
+              <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -57,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_parallel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="285">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -84,11 +79,11 @@
         <option value="$PROJECT_DIR$/mcmc-sampler.py" />
         <option value="$PROJECT_DIR$/kl-calculator.py" />
         <option value="$PROJECT_DIR$/mcmc-sampler-exponential.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/kl-calculator-normal.py" />
         <option value="$PROJECT_DIR$/mcmc-sampler-normal.py" />
         <option value="$PROJECT_DIR$/run_parallel.py" />
         <option value="$PROJECT_DIR$/mcmc_sampler_exponential.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -235,12 +230,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555073236531</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="aaa">
+      <created>1555075902000</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555075902000</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14446793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -252,7 +253,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33734939" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33734939" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.25180724" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32891566" />
@@ -306,13 +307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kl_calculator_normal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -335,18 +329,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mcmc_sampler_exponential.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="1335">
+          <caret line="89" column="24" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="24" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_parallel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
