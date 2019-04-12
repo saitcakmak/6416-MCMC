@@ -2,37 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc37d006-56e6-4dcc-b33e-25388324908b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/run_parallel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_10.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_6.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_7.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_8.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_out_1000_9.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_10.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_11.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_12.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_13.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_14.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_15.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_16.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_17.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_18.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_19.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_2.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_20.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_4.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_5.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_6.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_7.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_8.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mcmc_exp_params_1000_9.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kl-calculator-normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/kl_calculator_normal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc-sampler-exponential.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_sampler_exponential.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc-sampler-normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/mcmc_sampler_normal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_norm_out_10_1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mcmc_norm_params_10_1.npy" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mcmc-sampler-exponential.py">
+        <entry file="file://$PROJECT_DIR$/mcmc_sampler_exponential.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+            <state relative-caret-position="354">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -55,10 +31,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mcmc-sampler-normal.py">
+        <entry file="file://$PROJECT_DIR$/mcmc_sampler_normal.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
+            <state relative-caret-position="1320">
+              <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kl_calculator_normal.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -67,12 +55,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kl-calculator-normal.py">
+        <entry file="file://$PROJECT_DIR$/run_parallel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="195">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,10 +83,12 @@
       <list>
         <option value="$PROJECT_DIR$/mcmc-sampler.py" />
         <option value="$PROJECT_DIR$/kl-calculator.py" />
-        <option value="$PROJECT_DIR$/mcmc-sampler-normal.py" />
         <option value="$PROJECT_DIR$/mcmc-sampler-exponential.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/kl-calculator-normal.py" />
+        <option value="$PROJECT_DIR$/mcmc-sampler-normal.py" />
+        <option value="$PROJECT_DIR$/run_parallel.py" />
+        <option value="$PROJECT_DIR$/mcmc_sampler_exponential.py" />
       </list>
     </option>
   </component>
@@ -148,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mcmc-sampler-exponential">
+  <component name="RunManager" selected="Python.run_parallel">
     <configuration name="mcmc-sampler-exponential" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="6416-MCMC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mcmc-sampler-exponential.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mcmc_sampler_exponential.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,7 +172,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mcmc-sampler-normal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mcmc_sampler_normal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_parallel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="6416-MCMC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_parallel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,8 +204,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mcmc-sampler-exponential" />
+        <item itemvalue="Python.run_parallel" />
         <item itemvalue="Python.mcmc-sampler-normal" />
+        <item itemvalue="Python.mcmc-sampler-exponential" />
       </list>
     </recent_temporary>
   </component>
@@ -216,23 +228,31 @@
       <option name="project" value="LOCAL" />
       <updated>1555018673246</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aaa">
+      <created>1555073236531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555073236531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14446793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.33734939" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33734939" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.25180724" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32891566" />
@@ -286,16 +306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mcmc-sampler-normal.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="81" column="20" selection-start-line="81" selection-start-column="20" selection-end-line="81" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -303,22 +313,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mcmc-sampler-exponential.py">
+    <entry file="file://$PROJECT_DIR$/kl_calculator_normal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="83" column="11" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+        <state relative-caret-position="585">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kl-calculator-normal.py">
+    <entry file="file://$PROJECT_DIR$/mcmc_sampler_normal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="1320">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mcmc_sampler_exponential.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_parallel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
