@@ -84,7 +84,7 @@ def get_input():
     return n, string
 
 
-def main(n, string, candidate_cov):
+def main(n, string, cov):
     global start, delta
     global prior, parameters
     parameters = [1]
@@ -98,7 +98,7 @@ def main(n, string, candidate_cov):
     t_start = 1
     post_alpha, post_beta = sample_from_true(n)
     params = {"len": length, "t_start": t_start, "n": n, "data": data,
-              "covariance": candidate_cov, "delta": delta, "parameters": parameters,
+              "covariance": cov, "delta": delta, "parameters": parameters,
               "post_alpha": post_alpha, "post_beta": post_beta}
     np.save("mcmc_exp_params_" + string + ".npy", params)
     mcmc_run(length, t_start, string, cov)
