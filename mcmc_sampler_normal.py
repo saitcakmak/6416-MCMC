@@ -63,7 +63,7 @@ def mcmc_run(run_length, theta, string):
             theta = theta_next(theta)
             inner_out.append(theta)
         output = output + inner_out
-        np.save("mcmc_norm_out_" + string + ".npy", output)
+        np.save("experiments/mcmc_norm_out_" + string + ".npy", output)
 
 
 def get_input():
@@ -97,7 +97,7 @@ def main(n, string):
     params = {"len": length, "t_start": t_start, "n": n, "data": data,
               "covariance": candidate_cov, "parameters": parameters,
               "post_mean": post_mean, "post_variance": post_variance}
-    np.save("mcmc_norm_params_" + string + ".npy", params)
+    np.save("experiments/mcmc_norm_params_" + string + ".npy", params)
     mcmc_run(length, t_start, string)
     end = datetime.datetime.now()
     print("done! time: ", end - start)
