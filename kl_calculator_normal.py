@@ -1,7 +1,6 @@
 import numpy as np
 from scipy.stats import norm
 from scipy.stats import wasserstein_distance
-import matplotlib.pyplot as plt
 import datetime
 
 
@@ -57,15 +56,15 @@ def main(size, rep, diff):
     bin_count = 500
     hist_range = [-5, 5]
     start = datetime.datetime.now()
-    output = {}
+    divs = {}
     burn_list = [0, 10, 50, 100, 500, 1000, 2000, 5000, 10000, 20000, 50000, 100000, 200000]
     length_list = [100, 500, 1000, 2000, 5000, 10000, 50000, 100000, 200000, 400000, 800000]
     for count in range(1, rep+1):
         data, mean, std_dev = get_input(size, count)
         points, prob = calc_true(bin_count, hist_range, mean, std_dev)
-        output[count] = {}
+        divs[count] = {}
         for burn in burn_list:
-            output[count][burn] = {}
+            divs[count][burn] = {}
             for length in length_list:
                 hist, bins = create_hist(data[burn: burn+length], bin_count, hist_range)
                 hist_normed = hist/bin_count*(hist_range[1]-hist_range[0])
@@ -75,8 +74,16 @@ def main(size, rep, diff):
                     div = calc_tv(hist_normed, prob, bin_count)
                 else:
                     div = calc_wass(points, prob, hist_normed)
-                output[count][burn][length] = div
+                divs[count][burn][length] = div
                 print("count ", count, " burn ", burn, " len ", length, " div ", div, " time ", datetime.datetime.now() - start)
+    output = {}
+    for key1 in divs[1].keys():
+        output[key1] = {}
+        for key2 in divs[1][key1].keys():
+            out = []
+            for count in range(1, rep+1):
+                out.append(divs[count][key1][key2])
+            output[key1][key2] = np.average(out)
     np.save("norm_" + str(size) + "_" + str(rep) + "_" + diff + "_out.npy", output)
     return output
 
