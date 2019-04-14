@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc37d006-56e6-4dcc-b33e-25388324908b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/csv_writer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_0.0001_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_0.0025_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_0.01_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_0.04_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_0.09_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_0.25_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_0.64_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_1.0_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_25.0_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp_10_30_4.0_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kl_calculator_exponential.py" beforeDir="false" afterPath="$PROJECT_DIR$/kl_calculator_exponential.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kl_calculator_normal.py" beforeDir="false" afterPath="$PROJECT_DIR$/kl_calculator_normal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/norm_100_30_kl_out.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/norm_10_30_kl_out.npy" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +12,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csv_writer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exp_10_30_0.01_wass_out.csv">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +61,7 @@
         <option value="$PROJECT_DIR$/mcmc_sampler_exponential.py" />
         <option value="$PROJECT_DIR$/kl_calculator_normal.py" />
         <option value="$PROJECT_DIR$/kl_calculator_exponential.py" />
+        <option value="$PROJECT_DIR$/csv_writer.py" />
       </list>
     </option>
   </component>
@@ -79,7 +85,7 @@
             <path>
               <item name="6416-MCMC" type="b2602c69:ProjectViewProjectNode" />
               <item name="6416-MCMC" type="462c0819:PsiDirectoryNode" />
-              <item name="kl-diff" type="462c0819:PsiDirectoryNode" />
+              <item name="wass-dist" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -113,7 +119,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kl_calculator_normal">
+  <component name="RunManager" selected="Python.csv_writer">
+    <configuration name="csv_writer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="6416-MCMC" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_writer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="kl_calculator_exponential" type="PythonConfigurationType" factoryName="Python" singleton="false" temporary="true">
       <module name="6416-MCMC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,27 +204,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mcmc-sampler-normal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="6416-MCMC" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mcmc_sampler_normal.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="run_parallel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="6416-MCMC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,19 +226,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.csv_writer" />
+      <item itemvalue="Python.kl_calculator_exponential" />
       <item itemvalue="Python.kl_calculator_normal" />
       <item itemvalue="Python.mcmc-sampler-exponential" />
-      <item itemvalue="Python.mcmc-sampler-normal" />
       <item itemvalue="Python.run_parallel" />
-      <item itemvalue="Python.kl_calculator_exponential" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.csv_writer" />
         <item itemvalue="Python.kl_calculator_normal" />
         <item itemvalue="Python.kl_calculator_exponential" />
         <item itemvalue="Python.mcmc-sampler-exponential" />
         <item itemvalue="Python.run_parallel" />
-        <item itemvalue="Python.mcmc-sampler-normal" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555181243628</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="output">
+      <created>1555183410153</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555183410153</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -327,7 +340,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.33734939" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25180724" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25180724" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -378,7 +391,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aaa" />
     <MESSAGE value="code updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="code updates" />
+    <MESSAGE value="output" />
+    <option name="LAST_COMMIT_MESSAGE" value="output" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -479,6 +493,19 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csv_writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exp_10_30_0.01_wass_out.csv">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
