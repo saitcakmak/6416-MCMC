@@ -89,4 +89,4 @@ def main(size, rep, cov, diff):
 
 
 if __name__ == "__main__":
-    main(400, 30, 0.25, "tv")
+    main(400, 30, 0.01, "tv")
