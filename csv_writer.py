@@ -12,7 +12,7 @@ for file in file_list:
     with open(file[:-4]+'.csv', "w") as writer_file:
         writer = csv.writer(writer_file, delimiter=",")
         data = np.load("wass-dist/"+file).item()
-        writer.writerow(file)
+        writer.writerow([file])
         writer.writerow(header)
         for key in data.keys():
             row = [key]

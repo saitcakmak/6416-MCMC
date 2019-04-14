@@ -226,11 +226,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.csv_writer" />
-      <item itemvalue="Python.kl_calculator_exponential" />
       <item itemvalue="Python.kl_calculator_normal" />
       <item itemvalue="Python.mcmc-sampler-exponential" />
       <item itemvalue="Python.run_parallel" />
+      <item itemvalue="Python.kl_calculator_exponential" />
+      <item itemvalue="Python.csv_writer" />
     </list>
     <recent_temporary>
       <list>
